@@ -12,12 +12,13 @@ sudo snap install libreoffice
 sudo snap install htop
 sudo apt update -y
 
+
 ## Intalling flatpak's programms ##
 
-flatpak install flathub com.discordapp.Discord 
-flatpak install flathub com.spotify.Client
-flatpak install flathub us.zoom.Zoom
-flatpak install flathub com.valvesoftware.Steam
+flatpak install flathub com.discordapp.Discord -y 
+flatpak install flathub com.spotify.Client -y
+flatpak install flathub us.zoom.Zoom -y
+flatpak install flathub com.valvesoftware.Steam -y
 sudo apt update -y
 
 ## Installing external programms ##
@@ -34,4 +35,6 @@ sudo apt update -y
 
 sudo apt-get install gparted -y
 sudo apt-get install virtualbox -y
+sudo apt update -y
+sudo apt autoremove
 
