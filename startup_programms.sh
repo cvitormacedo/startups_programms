@@ -53,6 +53,7 @@ unzip dracula-icons-main.zip
 
 ## Installing repository programms ##
 
+sudo apt install gnome-sushi -y
 sudo apt-get install gparted -y
 sudo apt-get install virtualbox -y
 sudo apt update -y
