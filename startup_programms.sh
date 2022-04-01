@@ -10,6 +10,8 @@ sudo apt update -y
 sudo apt install snapd
 sudo snap install libreoffice
 sudo snap install htop
+sudo snap install teams
+sudo snap install mgba
 sudo apt update -y
 
 
@@ -30,11 +32,13 @@ wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 wget -c https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 sudo dpkg -i *.deb
 sudo apt update -y
+chmod +x Anaconda3-2021.11-Linux-x86_64.sh
 ./Anaconda3-2021.11-Linux-x86_64.sh
+
 ## Installing repository programms ##
 
 sudo apt-get install gparted -y
 sudo apt-get install virtualbox -y
 sudo apt update -y
-sudo apt autoremove
+sudo apt autoremove -y
 
